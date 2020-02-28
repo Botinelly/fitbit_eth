@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="styles.css" />
+<svg id="view-sell" display="none">
+  <image href="images/bg.png" opacity=".7" />
+  <text id="lblTitle">Dados vendidos</text>
+  <svg id="boxStats">
+    <svg class="item" display="none">
+      <text id="lblTitle">Pessoais</text>
+      <text id="usrAge" class="label" />
+      <text id="usrGender" class="label" />
+      <text id="usrHeight" class="label" />
+      <text id="usrWeight" class="label" />
+    </svg>
+    <svg class="item" display="none">
+      <text id="lblTitle">Exercício</text>
+      <text id="lblActiveTime" class="label" />
+      <text id="lblHeartRateAvg" class="label" />
+      <text id="lblHeartRateMax" class="label" />
+      <text id="lblSpeedAvg" class="label" />
+      <text id="lblSpeedMax" class="label" />
+      <text id="lblDistance" class="label" />
+    </svg>
+    <rect id="touch" width="100%" height="100%" opacity="0" pointer-events="all" />
+  </svg>
+
+  <use id="btnBack" href="#combo-button-lower-right" fill="fb-black" shortcut="none">
+    <set href="combo-button-icon" attributeName="href"
+          to="images/icons/eth.png" />   
+    <set href="combo-button-icon-press" attributeName="href"
+          to="images/icons/eth.png" />
+    <set href="combo-button-stroke" attributeName="display" to="inline" />
+  </use>
+
+</svg>

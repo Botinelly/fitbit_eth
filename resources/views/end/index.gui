@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="styles.css" />
+
+<svg id="view-end" display="none">
+  <image href="images/bg.png" opacity=".7" />
+
+  <use id="subview-clock2" href="#subview-clock" />
+
+  <text id="lblTitle">Exercício Finalizado!</text>
+
+  <text id="lblActiveTime" class="label" />
+  <text id="lblHeartRateAvg" class="label" />
+  <text id="lblHeartRateMax" class="label" />
+  <text id="lblSpeedAvg" class="label" />
+  <text id="lblSpeedMax" class="label" />
+  <text id="lblDistance" class="label" />
+
+  <use id="btnSell" href="#combo-button-lower-right" fill="fb-black" shortcut="none">
+    <set href="combo-button-icon" attributeName="href"
+          to="images/icons/eth.png" />   
+    <set href="combo-button-icon-press" attributeName="href"
+          to="images/icons/eth.png" />
+    <set href="combo-button-stroke" attributeName="display" to="inline" />
+  </use>
+  <use id="popup2" href="#subview-popup" display="none" />
+</svg>
